@@ -1,0 +1,32 @@
+:root{
+  --primary:#3b82f6;
+  --secondary:#64748b;
+  --success:#06b6d4;
+  --error:#EF4444;
+  --bg:#f9fafb;
+  --surface:#ffffff;
+  --text:#111827;
+  --sidebar:#0f172a;
+  --sidebar-text:#e5e7eb;
+}
+*{box-sizing:border-box}
+.app-container{
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  background: var(--bg);
+}
+.body{
+  display:flex;
+  flex:1;
+  min-height:0;
+}
+.content{
+  flex:1;
+  padding:16px;
+  background: var(--bg);
+  color: var(--text);
+}
+.app-container.sidebar-collapsed .sidebar{
+  width:64px;
+}

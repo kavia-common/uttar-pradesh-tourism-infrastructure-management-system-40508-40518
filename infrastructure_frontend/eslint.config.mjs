@@ -25,8 +25,13 @@ export default [
         beforeEach: "readonly",
         it: "readonly",
         expect: "readonly",
+        jasmine: "readonly",
+        spyOn: "readonly",
         // Browser globals
         HTMLElement: "readonly",
+        window: "readonly",
+        localStorage: "readonly",
+        alert: "readonly",
         // Node.js globals
         process: "readonly",
         console: "readonly"
